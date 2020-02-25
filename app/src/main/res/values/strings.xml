@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">FuruyoniRandomChoose</string>
+    <string name="chooseButton">メガミランダム選択</string>
+    <string name="megami1" />
+    <string name="megami2"/>
+    <string name="errorMessage"/>
+    <string name="yurina">ユリナ</string>
+    <string name="saine">サイネ</string>
+    <string name="himika">ヒミカ</string>
+    <string name="tokoyo">トコヨ</string>
+    <string name="oboro">オボロ</string>
+    <string name="yukihi">ユキヒ</string>
+    <string name="shinra">シンラ</string>
+    <string name="hagane">ハガネ</string>
+    <string name="chikage">チカゲ</string>
+    <string name="kururu">クルル</string>
+    <string name="sariya">サリヤ</string>
+    <string name="raira">ライラ</string>
+    <string name="utsuro">ウツロ</string>
+    <string name="honoka">ホノカ</string>
+    <string name="korunu">コルヌ</string>
+    <string name="yatsuha">ヤツハ</string>
+    <string name="hatsumi">ハツミ</string>
+    <string name="mizuki">ミズキ</string>
+    <string-array name="ninzuu">
+        <item>2人</item>
+        <item>3人</item>
+        <item>1人</item>
+    </string-array>
+</resources>

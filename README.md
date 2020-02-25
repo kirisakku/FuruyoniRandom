@@ -8,6 +8,9 @@
 * ふるよにコモンズ/BakaFire,TOKIAME （https://main-bakafire.ssl-lolipop.jp/furuyoni/na/rule.html）
 
 
+### 使い方
+app/release/app-release.apkをダウンロードしてください。後は見たとおりに操作すれば使えると思います。
+
 ### アプデ情報
 * 2020/2/25
      * リポジトリを作り直し（Android Studioの環境が崩れてSyntax Errorが多発したため）

@@ -1,10 +1,10 @@
-package com.example.furuyonirandom
+package com.example.furuyonirandomchoose
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.graphics.Bitmap
 import kotlinx.android.synthetic.main.activity_main.*
-import com.example.furuyonirandom.R
+import com.example.furuyonirandomchoose.R
 import MegamiList.*
 import android.graphics.BitmapFactory
 import kotlin.random.Random
@@ -68,6 +68,12 @@ class MainActivity : AppCompatActivity() {
         }
         if (mizukiCheckbox.isChecked() == true) {
             checkedMegami.add("ミズキ");
+        }
+        if (megumiCheckbox.isChecked() == true) {
+            checkedMegami.add("メグミ")
+        }
+        if (kanaeCheckbox.isChecked() == true) {
+            checkedMegami.add("カナヱ")
         }
 
         return checkedMegami;

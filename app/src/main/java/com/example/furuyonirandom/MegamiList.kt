@@ -2,9 +2,9 @@ package MegamiList
 
 import android.content.res.Resources
 import android.widget.Toast
-import com.example.furuyonirandom.MainActivity
+import com.example.furuyonirandomchoose.MainActivity
 import java.io.*
-import com.example.furuyonirandom.R
+import com.example.furuyonirandomchoose.R
 
 
 fun readFile(thisArg: MainActivity): List<List<String>> {

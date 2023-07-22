@@ -9,7 +9,8 @@
 
 
 ### 使い方
-app/release/app-release.apkをダウンロードしてください。後は見たとおりに操作すれば使えると思います。
+https://github.com/kirisakku/FuruyoniRandom/releases/
+ここから最新のapp-release.apkをダウンロードしてください。後は見たとおりに操作すれば使えると思います。
 
 ### アプデ情報
 * 2023/07/22

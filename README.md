@@ -24,4 +24,4 @@ https://github.com/kirisakku/FuruyoniRandom/releases/
 
 
 ### 画像イメージ
-![画像イメージ](app.png)
+<img src="https://github.com/kirisakku/FuruyoniRandom/assets/41281605/b7f7b678-5b66-4d8e-abc7-cc6df81628ea" width="250px">

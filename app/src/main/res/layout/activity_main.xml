@@ -291,7 +291,56 @@
             android:checked="true"
             android:text="@string/kanae" />
 
+        <CheckBox
+            android:id="@+id/kamuiCheckbox"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:layout_row="2"
+            android:layout_column="2"
+            android:checked="true"
+            android:text="@string/kamui" />
+
+        <CheckBox
+            android:id="@+id/renriCheckbox"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:layout_row="3"
+            android:layout_column="2"
+            android:background="@color/gridBackground"
+            android:checked="true"
+            android:text="@string/renri" />
+
+        <CheckBox
+            android:id="@+id/akinaCheckbox"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:layout_row="4"
+            android:layout_column="2"
+            android:checked="true"
+            android:text="@string/akina" />
+
+        <CheckBox
+            android:id="@+id/sisuiCheckbox"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:layout_row="5"
+            android:layout_column="2"
+            android:background="@color/gridBackground"
+            android:checked="true"
+            android:text="@string/sisui" />
+
     </GridLayout>
+
+    <Button
+        android:id="@+id/allButton"
+        android:layout_width="wrap_content"
+        android:layout_height="28dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="200dp"
+        android:background="?attr/colorButtonNormal"
+        android:text="@string/all"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <Spinner
         android:id="@+id/ninzuu"

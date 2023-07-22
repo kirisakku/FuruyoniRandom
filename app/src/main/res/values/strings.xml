@@ -24,6 +24,11 @@
     <string name="mizuki">ミズキ</string>
     <string name="megumi">メグミ</string>
     <string name="kanae">カナヱ</string>
+    <string name="kamui">カムヰ</string>
+    <string name="renri">レンリ</string>
+    <string name="akina">アキナ</string>
+    <string name="sisui">シスイ</string>
+    <string name="all">全選択解除</string>
     <string-array name="ninzuu">
         <item>2人</item>
         <item>3人</item>

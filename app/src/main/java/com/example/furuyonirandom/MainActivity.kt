@@ -75,6 +75,18 @@ class MainActivity : AppCompatActivity() {
         if (kanaeCheckbox.isChecked() == true) {
             checkedMegami.add("カナヱ")
         }
+        if (kamuiCheckbox.isChecked() == true) {
+            checkedMegami.add("カムヰ")
+        }
+        if (renriCheckbox.isChecked() == true) {
+            checkedMegami.add("レンリ")
+        }
+        if (akinaCheckbox.isChecked() == true) {
+            checkedMegami.add("アキナ")
+        }
+        if (sisuiCheckbox.isChecked() == true) {
+            checkedMegami.add("シスイ")
+        }
 
         return checkedMegami;
     }
@@ -150,6 +162,9 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
+        // 全チェック状態を管理するグローバル変数
+        var checked = false;
+
         chooseButton.setOnClickListener {
             val selected = ninzuu.selectedItem as String;
             val num = this.getNinzuu(selected);
@@ -189,6 +204,41 @@ class MainActivity : AppCompatActivity() {
                 // 画像設定
                 this.setImage(choosenMegamiList, selected);
             }
+        }
+
+        allButton.setOnClickListener {
+            // 全メガミの選択状態を設定する
+            yurinaCheckbox.setChecked(checked);
+            saineCheckbox.setChecked(checked);
+            himikaCheckbox.setChecked(checked);
+            tokoyoCheckbox.setChecked(checked);
+            oboroCheckbox.setChecked(checked);
+            yukihiCheckbox.setChecked(checked);
+            shinraCheckbox.setChecked(checked);
+            haganeCheckbox.setChecked(checked);
+            chikageCheckbox.setChecked(checked);
+            kururuCheckbox.setChecked(checked);
+            sariyaCheckbox.setChecked(checked);
+            rairaCheckbox.setChecked(checked);
+            utsuroCheckbox.setChecked(checked);
+            honokaCheckbox.setChecked(checked);
+            korunuCheckbox.setChecked(checked);
+            yatsuhaCheckbox.setChecked(checked);
+            hatsumiCheckbox.setChecked(checked);
+            mizukiCheckbox.setChecked(checked);
+            megumiCheckbox.setChecked(checked);
+            kanaeCheckbox.setChecked(checked);
+            kamuiCheckbox.setChecked(checked);
+            renriCheckbox.setChecked(checked);
+            akinaCheckbox.setChecked(checked);
+            sisuiCheckbox.setChecked(checked);
+
+            // フラグを反転
+            checked = !checked;
+
+            // テキストを変更
+            val text = if (checked) "全選択" else "全選択解除";
+            allButton.setText(text)
         }
     }
 }

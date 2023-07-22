@@ -1,5 +1,6 @@
 ユリナ,ユリナ（刀）,yurina.png
 ユリナ,ユリナ（古刀）,yurina_a1.png
+ユリナ,ユリナ（心）,yurina_effect_a2.png
 サイネ,サイネ（薙刀）,saine.png
 サイネ,サイネ（琵琶）,saine_a1.png
 サイネ,サイネ（拒絶）,saine_a2.png
@@ -15,11 +16,12 @@
 シンラ,シンラ（書）,shinra.png
 シンラ,シンラ（経典）,shinra_a1.png
 ハガネ,ハガネ（鎚）,hagane.png
-ハガネ,ハガネ（鍛冶師）,hagane_a1.png
+ハガネ,ハガネ（金床）,hagane_a1.png
 チカゲ,チカゲ（毒）,chikage.png
 チカゲ,チカゲ（絆）,chikage_a1.png
 クルル,クルル（絡繰）,kururu.png
 クルル,クルル（機器）,kururu_a1.png
+クルル,クルル（友情）,kururu_a2.png
 サリヤ,サリヤ（乗騎）,thallya.png
 サリヤ,サリヤ（新型）,thallya_a1.png
 ライラ,ライラ（爪）,raira.png
@@ -30,7 +32,15 @@
 ホノカ,ホノカ（勾玉）,honoka_a1.png
 コルヌ,コルヌ（橇）,korunu.png
 ヤツハ,ヤツハ（鏡）,yatsuha.png
+ヤツハ,ヤツハ（花）,yatsuha_a1.png
+ヤツハ,ヤツハ（魂）,yatsuha_aa1.png
 ハツミ,ハツミ（櫂）,hatsumi.png
+ハツミ,ハツミ（信頼）,hatsumi_a1.png
 ミズキ,ミズキ（兜）,mizuki.png
 メグミ,メグミ（唐棹）,megumi.png
 カナヱ,カナヱ（仮面）,kanae.png
+カムヰ,カムヰ（剣）,kamuwi.png
+レンリ,レンリ（衣）,renri.png
+レンリ,レンリ（遺物）,renri_a1.png
+アキナ,アキナ（算盤）,akina.png
+シスイ,シスイ（鋸）,shisui.png
